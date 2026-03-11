@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ContactTravel-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <style>
+        body{
+         font-family: Arial, Helvetica, sans-serif;
+        }
+        .image{
+            width: 100%; 
+        }
+        .input{
+            margin-top: 50px;
+            font-size: 20px;
+            border: 1px solid;
+            margin-left: 30px;   
+        }
+        button{
+             margin-left: 30px;
+             font-size: 25px;
+             background-color: red;
+             color: white;
+             border: 2px solid;  
+              border-radius: 10px;           
+        }
+        button:hover{
+            background-color: green;
+            transition: background-color 0.3s ease;
+        }    
+        .location{
+            margin-left: 30px;
+            width: 100%;
+        } 
+        .row{
+           background-color: rgb(42,2,69);
+           color: white;
+           padding: 20px;
+           margin-top: 20px;
+           padding-top: 50px;
+           padding-left: 30px;
+        } 
+        .col-3 p:hover{
+          color: red;
+          cursor:pointer; 
+        } 
+        .demo{ 
+          gap:10px;
+          height: 25px;
+        } 
+        h4{
+          margin: 25px;
+        }
+        .text{
+          margin-left: 25px;
+          width:700px;
+          height: 200px;  
+        }
+        .logo{
+          display: flex;
+          font-size: 20px;
+          margin-top: 75px;
+          margin-left: 200px;
+          gap:10px;
+        }
+        .logo1{
+          display: flex;
+          margin-top: 20px;
+          margin-left: 205px;
+          gap: 10px;
+          font-size: 20px;;
+        }
+        .logo2{
+          display: flex;
+          margin-top: 20px;
+          margin-left: 200px;
+          gap: 10px;
+        }
+        h6{
+          font-size:20px;          
+        } 
+        .fa-sharp{
+          font-size: 25px;
+        }
+    </style>
+</head> 
+<body>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid icon">
+        <img src="Compass.png" alt="Logo" width="25" class="d-inline-block align-text-top" > 
+        <a class="navbar-brand" href="#">Travel World</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+       
+         <a class="nav-link active" aria-current="page" href="Travel-1.html" >Home</a>
+          <a class="nav-link active" aria-current="page" href="AboutTravel-1.html">About</a>
+          <a class="nav-link active" aria-current="page" href="Destinations-1.html">Destination</a>
+          <a class="nav-link active" aria-current="page" href="ContactTravel-1.html">Contact</a>
+      </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+     </div> 
+    </div>
+</nav> 
+<img class="image" src="Contact.png"><br><br>
+    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6511978.833996306!2d-124.59962152917554!3d37.16037519085125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sin!4v1758092738413!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+  
+<div class="grid d-flex">
+  <div class="col-6"> 
+        <h4><b>Get in touch</b></h4>
+        <textarea class="text" type="message" id="message" placeholder="Enter your message"></textarea><br>
+        <input class="input" type="name" id="name" placeholder="Enter name">
+        <input class="input" type="email" id="email" placeholder="Enter email"><br>
+        <input class="input" type="phone" id="phone" placeholder="Enter mobile number"><br><br>
+        <button>Submit</button><br><br>
+      </div>
+  <div class="col-6">
+      <div class="logo">
+           <i class="fa-solid fa-location-dot"></i>
+           <h6>Buttonwood,California</h6>
+           
+      </div>
+      <div class="logo1"> 
+            <i class="fa-solid fa-phone"></i>
+            <h6>+91 97672-95506</h6>
+      </div> 
+      <div class="logo2">
+         <i class="fa-sharp fa-regular fa-envelope"></i>
+         <h6>travelworld@gmail.com</h6>
+      </div>
+  </div> 
+</div>
+
+
+  <div class="row">     
+    <div class="col-6 "> 
+        <div class="demo d-flex"> 
+      
+         <img src="Compass.png" alt="Logo" width="25" >
+         <h5>Travel World</h5>
+         
+        </div><br>  
+     
+          <p>5th flora, 700/D kings road, green lane New York-1782<br>
+           +91 97672-95506<br>
+           travelworld@gmail.com 
+          </p>  
+
+    </div>
+    <div class="col-3">Company<br><br> 
+      
+      <p>Home</p>
+      <p>About</p> 
+      <p>Destinations</p>
+      <p>Contact</p>
+
+    </div>
+    <div class="col-3">Popular Destiantions<br><br>
+
+      <p>India</p> 
+      <p>Australia</p> 
+      <p>Europe</p> 
+      <p>America</p> 
+
+    </div>
+
+  </div>  
+</body>
+</html>
